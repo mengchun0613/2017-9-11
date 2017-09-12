@@ -1,0 +1,229 @@
+@charset="utf-8";
+nav{
+	padding: 0;
+}
+#pcMenu{
+	width: 400px;
+	height: 32px;
+	padding: 0;
+	
+
+}
+#bgvid {
+	position: absolute;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	display: block;
+	padding: 0px;
+}
+#all{
+	height: auto;
+}
+#portal{
+	height: 586px;
+	padding-top: 14px;
+	background-image: url('img/portal-bg.jpg');
+	background-size: cover;
+	padding: 0;
+}
+
+#pcNav{
+	height: 32px;
+	background-color:rgba(255,255,255,0.0);
+	margin-bottom: 154px;
+}
+#logo{
+	width: 100px;
+	height: 32px;
+	float: left;
+	margin-left: 19px;
+}
+#slogan{
+	height: 151px;
+	background-color: rgba(225, 225, 225, 0.8);
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 166px;
+
+}
+#bookArea{
+	height: 82px;
+	background-color: rgba(0, 0, 0, 0.7);
+	padding-top:20px;                    
+} 
+
+
+#PlaceText{
+	height: 150px;
+	background-color: pink;
+	padding-top: 40px;
+
+	}
+
+#ptText{
+
+
+	height: 58px;
+	
+	margin-right: auto;
+	margin-left: auto;
+}
+#Place{
+	height: auto;
+	background-color: pink;
+}
+
+
+
+
+#hotPlace01{
+	
+	background-image: url('img/kyoto.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+
+#hotPlace02{
+	
+	background-image: url('img/tokyo.jpg');
+	background-size: cover;
+	background-position: center center;
+
+}
+#hotPlace03{
+	
+	background-image: url('img/seoul.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+#PlaceAll{
+	height: 92px;
+	background-color: gray;
+	padding-top: 49px;
+}
+#searchbar{
+	width: 897px;
+	height: 42px;
+	
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 5px;
+}
+@media (max-width: 767px) { 
+
+#bgvid {
+	display: none;
+	
+}
+
+#hotPlace01{
+	height: 345px;
+	
+}
+
+#hotPlace02{
+	height: 345px;
+	
+}
+#hotPlace03{
+	height: 345px;
+} 
+
+#searchbar{
+	width: 80%;
+	height: 42px;
+}
+
+#paBtn{
+	display: none;
+}
+ }
+
+#PlaceAll{
+	display: none;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+#bgvid {
+	display: none;
+	
+}
+#hotPlace{
+	height: auto;
+	background-color: pink;
+	margin-right: auto;
+	margin-left: auto;
+}
+ #hotPlace01{
+	height: 345px;
+	margin-bottom:  15px;
+}
+
+#hotPlace02{
+	height: 345px;
+	margin-right: 15px;
+}
+#hotPlace03{
+	height: 345px;
+}
+#searchbar{
+	width: 737px;
+	height: 44px;
+}
+#paBtn{
+	width: 695px;
+	height: 31px;
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+	border: solid 2px gray;
+	border-radius: 1px;
+	padding-top: 12px; 
+}
+ }
+
+
+
+@media (min-width: 992px) { 
+#portal{
+	height: 586px;
+	padding-top: 0px;
+	background-image: url();
+	background-size: cover;
+}
+#hotPlace{
+	height: 345px;
+	background-color: pink;
+	margin-right: auto;
+	margin-left: auto;
+}
+	#hotPlace01{
+	height: 345px;
+	margin-right: 15px;
+}
+
+	#hotPlace02{
+	height: 345px;
+	margin-right: 15px;
+}
+#hotPlace03{
+	height: 345px;
+}
+#paBtn{
+	width: 315px;
+	height: 31px;
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+	border: solid 2px gray;
+	border-radius: 1px;
+	padding-top: 12px; 
+}
+
+}
